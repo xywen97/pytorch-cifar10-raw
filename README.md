@@ -1,6 +1,8 @@
 # pytorch-cifar10-raw
  Clean VGG or other models trained by Pytorch
 
+# the repo is public
+
 # cifar10.py 
 ## utilized to train the model with VGG or other structures
 
