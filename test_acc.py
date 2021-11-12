@@ -75,6 +75,7 @@ net_test = VGG('VGG16')
 net_test = net_test.to(device)
 # net_test = torch.nn.DataParallel(net_test, device_ids=[0])
 
+# 从对应的权重文件中加载权重数据到网络结构中
 net_test.load_state_dict(torch.load('./checkpoint-clean/ckpt.pth'))
 net_test.eval()
 test_loss = 0
